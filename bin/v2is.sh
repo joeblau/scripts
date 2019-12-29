@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Convert videos to an image sequences using ffmpeg.
+
 
 USAGE_ERROR="Usage: ${0##*/} -i <input-folder> -o <output-folder> -e {video-extension}"
 FFMPEG_ERROR="Error: ffmpeg is not installed. Fix: \033[1mbrew install ffmpeg\033[0m"
